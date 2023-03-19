@@ -1,17 +1,23 @@
 # Random Password Key-gen Generator
 
 ## Description
-<br>
-<br>
-<br>
-<br>
-<br>
+A random password generator used for module 02 challenge! Creates a randomized password based on the user's input on what criteria they would prefer. Please use it at your own personal or testing purposes. The password generator is not case-sensitive on answering with "yes" or "no." Even 'y' and 'n' is also allowed for better user experience. <br>
+A list of criteria: <br>
+
+* Password length between 8 - 128 characters. <br>
+* Include lowercase letters? (a - z) <br>
+* Include uppercase letters? (A - Z) <br>
+* Include numbers? (0 - 9) <br>
+* Include special characters? (>?@#/:;<$+!=,-.^%`|~&'*_) <br>
+ <br>
+
+You are free to use the resulted password for your own use.<br>
 
 ## Website URL
 **Link:** [Website link to the password generator!]() <br>
 
 ## Previews
-![Website Preview Image](/assets/images/website-preview-1.jpg) <br>
+![Website Preview Image](/assets/images/website-preview.png) <br>
 
 ## Credits
 **Websites:** W3schools, stackoverflow, & reddit <br>

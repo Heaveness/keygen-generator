@@ -1,7 +1,7 @@
 // Constant variable array to store the questions.
 const questions = [
     "Please input the desired password length between 8 - 128 characters.",
-    "Would you like it to include lowercase letters? Yes or No? [a - z]",
+    "Would you like it to include lowercase letters? Yes or No? (a - z)",
     "Would you like it to include uppercase letters? Yes or No? (A - Z)",
     "Would you like it to include numbers? Yes or No? (0 - 9)",
     "Would you like it to include special characters? Yes or No? (>?@#/:;<$+!=,-.^%`|~&'*_)"
