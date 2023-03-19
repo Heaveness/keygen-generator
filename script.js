@@ -36,6 +36,37 @@ function generatePassword() {
     return generatePassword();
   };
   
+  for (let i = 1; i < questions.length; i++) {
+    var userPick = window.prompt(questions[i]);
+    userPick = userPick.toLowerCase();
+  
+      if (!userPick) {
+        window.alert("Please enter either a Yes or No for the password to generate.");
+        return generatePassword();
+      }
+      else if (userPick === answers[0]) {
+        passCharCriteria += keyLetters[i];
+      }
+      else if (userPick === answers[1]) {
+      }
+      else if (userPick != answers || !isNaN(userPick)) {
+        window.alert("Please don't use anything else other than a Yes or No.");
+        return generatePassword();
+      }
+    }
+  
+    for (let i = 0; i < +keyLength; i++) {
+      if (+keyLength && passCharCriteria === "") {
+        window.alert("Please choose at least 1 criteria.");
+        return generatePassword()
+      }
+      else {
+      newPassword += passCharCriteria[Math.floor(Math.random() * passCharCriteria.length)];
+      }
+    }
+    
+    return newPassword;
+  
 };
 
 // Write password to the #password input
