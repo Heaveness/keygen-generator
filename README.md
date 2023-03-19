@@ -9,7 +9,6 @@ A list of criteria: <br>
 * Include uppercase letters? (A - Z) <br>
 * Include numbers? (0 - 9) <br>
 * Include special characters? (>?@#/:;<$+!=,-.^%`|~&'*_) <br>
- <br>
 
 You are free to use the resulted password for your own use.<br>
 
