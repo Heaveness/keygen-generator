@@ -54,7 +54,7 @@ function generatePassword() {
         return generatePassword();
       }
     }
-  
+    
     for (let i = 0; i < +keyLength; i++) {
       if (+keyLength && passCharCriteria === "") {
         window.alert("Please choose at least 1 criteria.");
@@ -66,7 +66,6 @@ function generatePassword() {
     }
     
     return newPassword;
-  
 };
 
 // Write password to the #password input
