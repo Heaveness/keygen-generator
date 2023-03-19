@@ -14,7 +14,7 @@ A list of criteria: <br>
 You are free to use the resulted password for your own use.<br>
 
 ## Website URL
-**Link:** [Website link to the password generator!]() <br>
+**Link:** [Website link to the password generator!](https://heaveness.github.io/keygen-generator/) <br>
 
 ## Previews
 ![Website Preview Image](/assets/images/website-preview.png) <br>
