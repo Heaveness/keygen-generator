@@ -17,6 +17,27 @@ const keyLetters = [
 
 const answers = ["yes", "no"];
 
+// Get references to the #generate element
+var generateBtn = document.querySelector("#generate");
+
+function generatePassword() {
+
+  var passCharCriteria = "";
+
+  var keyLength = window.prompt(questions[0]);
+
+  var newPassword = "";
+
+  if (!keyLength) {
+    return;
+  }
+  else if (+keyLength < 8 || +keyLength > 128 || isNaN(+keyLength)) {
+    window.alert(keyLength + " is not a valid number. Please choose between 8 - 128 characters.");
+    return generatePassword();
+  };
+  
+};
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
